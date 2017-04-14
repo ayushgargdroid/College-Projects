@@ -252,7 +252,7 @@ public class CustomerFrame extends javax.swing.JFrame implements ActionListener{
         String sid = "XE";
         String url = "jdbc:oracle:thin:@"+servername+":"+serverport+":"+sid;
         String username="system";
-        String password="Vostro200";
+        String password="";
         try {
             Connection con = DriverManager.getConnection(url,username,password);
             System.out.println("Connection Successful");
